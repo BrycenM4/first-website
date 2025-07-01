@@ -14,7 +14,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
-    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>	
 }
 
 /* Header styling */
