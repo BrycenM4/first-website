@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    font-family: 'Akshar'; font-size: 19px;
+    font-family: 'Alatsi'; font-size: 19px;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
-    <link href='https://fonts.googleapis.com/css?family=Akshar' rel='stylesheet'>	
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>	
 }
 
 /* Header styling */
