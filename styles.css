@@ -18,10 +18,46 @@ body {
 
 /* Header styling */
 header {
+    width: 100%;
+    position: relative;
+    text-align: center;
     background-color: #7e7e7e;
     color: white;
-    padding: 30px;
-    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+  font-size: 3rem;  /* big size, adjust as you like */
+  margin: 0;        /* removes default margin for tighter layout */
+}
+
+/* When screen width is 600px or less, reduce the font size */
+@media (max-width: 1000px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 850px) {
+  header h1 {
+    font-size: 1.0rem;
+  }
+}
+
+header .logo {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 0;            /* space from left edge */
+  top: 50%;
+  transform: translateY(-50%);  /* vertical center relative to header */
+}
+
+@media (max-width: 1000px) {
+  header .logo {
+    width: 200px; /* shrink for smaller screens */
+  }
 }
 
 /* Navigation menu */
